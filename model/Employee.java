@@ -4,8 +4,8 @@ public class Employee {
     private String id;
     private String name;
     private String department;
-    private String scheduleStart; // e.g. "08:00"
-    private String scheduleEnd;   // e.g. "17:00"
+    private String scheduleStart;
+    private String scheduleEnd;
 
     public Employee(String id, String name, String department,
                     String scheduleStart, String scheduleEnd) {

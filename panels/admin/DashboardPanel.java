@@ -338,8 +338,6 @@ public class DashboardPanel extends BasePanel {
         timer.start();
     }
 
-    // ── Helpers ───────────────────────────────────────────────────────────────
-
     private JPanel whiteCard(Color accentTop) {
         return new JPanel() {
             @Override protected void paintComponent(Graphics g) {

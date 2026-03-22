@@ -103,7 +103,6 @@ public class StyledComponents {
         return label;
     }
 
-    // ── private helpers ──────────────────────────────────────────────────────
 
     private static JButton baseButton(String text) {
         JButton btn = new JButton(text);
